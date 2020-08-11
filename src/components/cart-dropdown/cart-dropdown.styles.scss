@@ -16,6 +16,18 @@
       display: flex;
       flex-direction: column;
       overflow: scroll;
+      overflow-x: hidden;
+      
+    }
+    .cart-items::-webkit-scrollbar {
+      //display: none;
+      width: 10px;
+    }
+    .cart-items::-webkit-scrollbar-track {
+      background:white; 
+    }
+    .cart-items::-webkit-scrollbar-thumb {
+      background: #888; 
     }
   
     button {
